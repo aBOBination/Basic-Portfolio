@@ -51,24 +51,59 @@ table {
 
 .nav-container {
     text-align: center;
-    background-color: gray;
-
+    background-color: #ffffff;
+    height: 75px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
 }
+
 .nav {
-    background-color: orange;
+    background-color: #ffffff;
     width: 960px;
-    height: 50px;
+    height: 100%;
     display: inline-block;
 }
 
 .nav-logo {
     float: left;
-    background-color: green;
-    height: 50px;
+    background-color: #4aaaa5;
+    height: 100%;
     margin: auto;
-
 }
 
+.nav-logo-link {
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 75px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav-right {
+    background-color: #ffffff;
+    float: right;
+    height: 100%;
+    margin: auto;
+}
+
+.nav-link {
+    color: #777777;
+    font-size: small;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    line-height:75px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.divider {
+    color: #777777;
+}
 .about-me-container {
     text-align: center;
 }
@@ -81,9 +116,4 @@ table {
 .footer {
     background-color: gray;
     text-align: center;
-
-}
-
-.float-right {
-    float: right;
 }
