@@ -53,9 +53,8 @@ table {
     text-align: center;
     background-color: #ffffff;
     height: 75px;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
+
 }
 
 .nav {
@@ -89,6 +88,12 @@ table {
     margin: auto;
 }
 
+.divider {
+    color: #777777;
+    opacity: 50%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .nav-link {
     color: #777777;
     font-size: small;
@@ -101,9 +106,6 @@ table {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.divider {
-    color: #777777;
-}
 .about-me-container {
     text-align: center;
 }
@@ -116,4 +118,9 @@ table {
 .footer {
     background-color: gray;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
 }
