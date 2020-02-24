@@ -49,6 +49,7 @@ table {
 
 /* Start */
 
+
 .nav-container {
     text-align: center;
     background-color: #ffffff;
@@ -90,13 +91,12 @@ table {
 
 .divider {
     color: #777777;
-    opacity: 50%;
+    opacity: 20%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .nav-link {
     color: #777777;
-    font-size: small;
     box-sizing:border-box;
     height: 100%;
     width: 100%;
@@ -107,20 +107,57 @@ table {
 }
 
 .about-me-container {
+    background-image: url("../images/concrete_seamless.png");
+    position: absolute;
+    top: 77px; /* Header Height */
+    bottom: 50px; /* Footer Height */
+    width: 100%;
     text-align: center;
 }
 
 .about-me {
-    width: 960px;
+    text-align: left;
+    background-color: #ffffff;
+    width: 920px;
+    margin-top: 50px;
+    padding: 20px;
     display: inline-block;
+    border: 1px solid #e4e4e4 ;
 }
 
+.about-name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
+    color: #4aaaa5;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.about-image {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+.about-paragraph {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+
+}
+
+
 .footer {
-    background-color: gray;
+    background-color: #777777;
+    color: #ffffff;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 75px;
-    line-height: 75px;
+    height: 50px;
+    line-height: 50px;
+    border-top: solid #4aaaa5 5px;
 }
