@@ -153,11 +153,47 @@ table {
 .footer {
     background-color: #777777;
     color: #ffffff;
+    font-size: small;
     text-align: center;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 50px;
-    line-height: 50px;
+    line-height: 70px;
     border-top: solid #4aaaa5 5px;
+}
+
+.form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.form-name-area {
+    width: 100%;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: thin;
+}
+
+.form-email-area {
+    width: 100%;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: thin;
+}
+
+.form-message-area {
+    width: 100%;
+    border-color: #e4e4e4;
+    border-style: solid;
+    border-width: thin;
+}
+
+.form-button {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
 }
